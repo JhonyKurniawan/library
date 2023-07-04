@@ -72,7 +72,7 @@ const router = createRouter({
     {
       path: '/detail-pinjaman/:id',
       name: 'PeminjamanDetail',
-      component: () => import('../views/PeminjamanDetailView.Vue')
+      component: () => import('../views/PeminjamanDetailView.vue')
     }
   ]
 })
